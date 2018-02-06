@@ -1,0 +1,152 @@
+print("print")
+>>> 
+================ RESTART: /home/cs2017a112/Brijesh/numbers.py ================
+100
+>>> 	complex (4+300
+		 
+SyntaxError: unexpected indent
+>>> complex (4+4)
+(8+0j)
+>>> 
+>>> 
+>>> float (152)
+152.0
+>>> int (8)
+8
+>>> float (8/36)
+0.2222222222222222
+>>> int (8/36)
+0
+>>> a = 100
+>>> type (a)
+<class 'int'>
+>>> a = 100.5
+>>> type (a)
+<class 'float'>
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+100
+>>> a = (4+5)
+>>> type (a)
+<class 'int'>
+>>> a=4+55j
+>>> type(a)
+<class 'complex'>
+>>> a=105.154
+>>> int(a)
+105
+>>> a=4+3j
+>>> int(a)
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    int(a)
+TypeError: can't convert complex to int
+>>> float(a)
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    float(a)
+TypeError: can't convert complex to float
+>>> b=100
+>>> float (b)
+100.0
+>>> complex (b)
+(100+0j)
+>>> sqrt(4)
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    sqrt(4)
+NameError: name 'sqrt' is not defined
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+Traceback (most recent call last):
+  File "/home/cs2017a112/Brijesh/numbers2.py", line 2, in <module>
+    sqrt (4)
+NameError: name 'sqrt' is not defined
+>>> a=100
+>>> c= a*0.5
+>>> print (c)
+50.0
+>>> c= a*0.5
+>>> print (c)
+50.0
+>>> c=a**0.5
+>>> print (c)
+10.0
+>>> a=100
+>>> type (a)
+<class 'int'>
+>>> a=4+3j
+>>> type (a)
+<class 'complex'>
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+(2+0j)
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+(2+0j)
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+Traceback (most recent call last):
+  File "/home/cs2017a112/Brijesh/numbers2.py", line 2, in <module>
+    a=sqrt(4)
+NameError: name 'sqrt' is not defined
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+2.0
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+Traceback (most recent call last):
+  File "/home/cs2017a112/Brijesh/numbers2.py", line 2, in <module>
+    a=math.sqrt(-1)
+ValueError: math domain error
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+Traceback (most recent call last):
+  File "/home/cs2017a112/Brijesh/numbers2.py", line 2, in <module>
+    a=math.sqrt(-1)
+ValueError: math domain error
+>>> 
+=============== RESTART: /home/cs2017a112/Brijesh/numbers2.py ===============
+1j
+>>> a="python"
+>>> a[0]="r"
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    a[0]="r"
+TypeError: 'str' object does not support item assignment
+>>> a[0]=r
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    a[0]=r
+NameError: name 'r' is not defined
+>>> print (a)
+python
+>>> type (a)
+<class 'str'>
+>>> 
+============= RESTART: /home/cs2017a112/Brijesh/reassignment.py =============
+Traceback (most recent call last):
+  File "/home/cs2017a112/Brijesh/reassignment.py", line 2, in <module>
+    a[3]=h
+NameError: name 'h' is not defined
+>>> 
+============= RESTART: /home/cs2017a112/Brijesh/reassignment.py =============
+Traceback (most recent call last):
+  File "/home/cs2017a112/Brijesh/reassignment.py", line 2, in <module>
+    a[3]="h"
+TypeError: 'str' object does not support item assignment
+>>> 
+=============== RESTART: /home/cs2017a112/reassignmentofint.py ===============
+Traceback (most recent call last):
+  File "/home/cs2017a112/reassignmentofint.py", line 2, in <module>
+    a[5]=5
+TypeError: 'int' object does not support item assignment
+>>> 
+=============== RESTART: /home/cs2017a112/reassignmentofint.py ===============
+Traceback (most recent call last):
+  File "/home/cs2017a112/reassignmentofint.py", line 2, in <module>
+    a[5]="5"
+TypeError: 'int' object does not support item assignment
+>>> 
